@@ -15,8 +15,8 @@ var placingEnd = false;
 
 var bikeType = 'mtb';
 
-var startPos = L.latLng(59.3897465876298, 24.667310714721683);
-var endPos = L.latLng(59.401501085264385, 24.73350763320923);
+var startPos = L.latLng(59.39011807465503, 24.664521217346195);
+var endPos = L.latLng(59.39433525953951, 24.70859527587891);
 
 var currentRoute;
 
