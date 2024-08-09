@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RideGuide Map Demo</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="controls">
+        <button id="place-start">Place Start</button>
+        <button id="place-end">Place End</button>
+        <br>
+        <input list="start-autocomplete-datalist" id="start-address-input-box" placeholder="Enter Start Address...">
+        <datalist id="start-autocomplete-datalist"></datalist>
+        <input list="end-autocomplete-datalist" id="end-address-input-box" placeholder="Enter End Address...">
+        <datalist id="end-autocomplete-datalist"></datalist><br>
+
+        <button id="regular-bike">Regular Bike</button><br>
+        <button id="mtb-bike">Mountain Bike</button><br>
+        <button id="racing-bike">Racing Bike</button><br>
+
+        <div><p>Start Location: </p><p id="start-point-coords"></p></div>
+        <div><p>End Location: </p><p id="end-point-coords"></p></div>
+    </div>
+    <div id="map"></div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
